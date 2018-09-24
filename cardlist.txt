@@ -1,0 +1,44 @@
+Air Elemental
+Minion 0 1 1 1
+Earth Elemental
+Minion 3 4 4 1
+Bone Golem
+Minion 2 1 3 1
+Fire Elemental
+Minion 2 2 2 1
+Potion Seller
+Minion 2 1 3 1
+Novice Pyromancer
+Minion 1 0 1 1
+Apprentice Summoner
+Minion 1 1 1 1
+Master Summoner
+Minion 3 2 3 1
+Banish
+Spell 2 Killer F F
+Unsummon
+Spell 1
+Recharge
+Spell 1 RitualStatModder -3 0
+Disenchant
+Spell 1
+Raise Dead
+Spell 1
+Blizzard
+Spell 3 MinionStatModder 0 0 2 0 tgtAllAlly tgtAllEnemy
+Giant Strength
+Enchantment 1
+Enrage
+Enchantment 2
+Haste
+Enchantment 1
+Magic Fatigue
+Enchantment 0
+Silence
+Enchantment 1
+Dark Ritual
+Ritual 0
+Aura of Power
+Ritual 1
+Standstill
+Ritual 3

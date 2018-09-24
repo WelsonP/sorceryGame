@@ -1,0 +1,23 @@
+This is a compilation of things to fix/change later if time allows it.
+Add to this list if you have to make a poor design choice in order for
+a certain implementation to work properly.
+
+1. unique_ptrs don't work with CardContainers.
+
+2. Have to do a dynamic cast to play a card from the player's hand.
+
+3. There might be a logical error due to APNAP order and on-death triggers
+   in the Player class, when it moves a 'dead' minion into the graveyard.
+   This seems to suggest that maybe it SHOULD be the card's responsibility
+   to move itself between CardContainers. (BIG design issue)
+
+
+
+
+TODOS
+
+4. player indexing exception safety
+5. remove those pointless getter/setters
+6. remove code redundancies in the transferCard methods
+7. create enchantments
+
